@@ -1,0 +1,15 @@
+{# templates/actualizar.html.twig #}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form enctype="multipart/form-data" action="{{path('actualizar')}}" method="post">
+		Archivo
+		<input type="file" name="filename">
+		<button type="submit" name="actualizar">actualizar</button>
+	</form>
+</body>
+</html>
